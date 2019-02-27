@@ -52,8 +52,13 @@ body{
 		z-index: -1;
 		bottom: 0;
 		left: 0;
-		color: transparent;
-		-webkit-text-stroke: .001px #202020;
+		// color: transparent;
+		// -webkit-text-stroke: .001px #202020;
+		color: #fbf4ee;
+		text-shadow: -1px -1px 0 #202020,  
+					1px -1px 0 #202020,
+					-1px 1px 0 #202020,
+					1px 1px 0 #202020;
 	}
 	
 	.details{
